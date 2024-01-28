@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDev Studio</title>
+    <!-- import javascript variables and functions -->
+    <script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <div id="ui-camp-gallery">
+      <h1>Welcome to my bakery</h1>
+      <p>Add your own images and styles!</p>
+        
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div class="gallery-container">
+        <div class="box">
+          <img src="./assets/img1.jpg" alt="Image1">
+        </div>
+        <div class="box">
+          <img src="./assets/img2.jpg" alt="Image2">
+        </div>
+        <div class="box">
+            <img src="./assets/img3.jpg" alt="Image3">
+        </div>
+        <div class="box">
+          <img src="./assets/img4.jpg" alt="Image4">
+        </div>
+        <div class="box">
+            <img src="./assets/img5.jpg" alt="Image5">
+        </div>
+        <div class="box">
+          <img src="./assets/img6.jpg" alt="Image6">
+        </div>
+        </div>
+
+      <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
+      <button onclick="updatePage()">
+        Press this button to display some fruit data
+      </button>
+    </div>
+  </body>
+</html>

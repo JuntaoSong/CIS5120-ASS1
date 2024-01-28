@@ -1,0 +1,33 @@
+#ui-camp-gallery {
+  background-color: lightblue;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+/*img {
+  width: 500px;
+}*/
+.box {
+  width: 196px;
+  height: 196px;
+  margin: 10px;
+  overflow: hidden;
+  background-size: auto;
+  border: 2px solid black;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.gallery-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+img{
+  width: 196px;
+  height: 196px;
+}
